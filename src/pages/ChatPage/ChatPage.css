@@ -1,0 +1,94 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.chat {
+    width: 90%;
+    min-height: 90%;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    overflow: auto;
+}
+
+.bot {
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.user {
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: #007bff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: right;
+    color: white;
+}
+
+.bot-name {
+    padding: 0.75rem 0.5rem 0.75rem;
+}
+
+.user-name {
+    text-align: right;
+    padding: 0.75rem 0.5rem 0.75rem;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+input,
+select {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.name-field {
+    min-width: 50%;
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.name-field:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.age-field {
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-left: 0.5rem
+}
